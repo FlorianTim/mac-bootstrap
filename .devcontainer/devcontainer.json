@@ -1,0 +1,30 @@
+{
+  "name": "mac-bootstrap (repo tooling)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspaces/mac-bootstrap",
+  "remoteUser": "node",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "timonwong.shellcheck",
+        "foxundermoon.shell-format",
+        "DavidAnson.vscode-markdownlint",
+        //"redhat.vscode-yaml",
+        "EditorConfig.EditorConfig"
+      ],
+      "settings": {
+        "files.eol": "\n",
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.formatOnSave": true,
+        "shellcheck.run": "onSave",
+        "shellcheck.executablePath": "shellcheck"
+      }
+    }
+  },
+
+  "postCreateCommand": "npm -g i markdownlint-cli2 && echo 'Dev container ready.'"
+}

@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mac-bootstrap: Install (everyday)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/install.sh"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mac-bootstrap: Install (dev)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/install-dev.sh"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mac-bootstrap: Install (all)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/install-all.sh"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mac-bootstrap: Update (all)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/update.sh"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mac-bootstrap: Cleanup (brew)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/cleanup.sh"],
+      "problemMatcher": []
+    },
+    {
+      "label": "mac-bootstrap: Fix / Doctor (brew)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/fix-brew.sh"],
+      "problemMatcher": []
+    }
+  ]
+}

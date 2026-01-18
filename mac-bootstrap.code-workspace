@@ -1,0 +1,36 @@
+{
+  "folders": [
+    { "path": "." }
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "editor.formatOnSave": true,
+    "editor.rulers": [100],
+
+    "[shellscript]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+
+    "yaml.validate": true,
+
+    "shellcheck.enable": true,
+    "shellcheck.run": "onSave",
+    "shellcheck.executablePath": "shellcheck"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode-remote.remote-containers",
+      "timonwong.shellcheck",
+      "foxundermoon.shell-format",
+      "DavidAnson.vscode-markdownlint",
+      "redhat.vscode-yaml",
+      "EditorConfig.EditorConfig"
+    ]
+  }
+}
