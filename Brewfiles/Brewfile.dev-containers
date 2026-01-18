@@ -1,0 +1,34 @@
+
+# Brewfile.dev-containers â€” containers and related tooling
+
+# Docker CLI
+
+brew "docker"
+
+# Docker Compose
+
+brew "docker-compose"
+
+# Docker Buildx plugin
+
+brew "docker-buildx"
+
+# Credential helper for Keychain
+
+brew "docker-credential-helper"
+
+# Lightweight Docker runtime alternative to Docker Desktop
+
+brew "colima"
+
+# Dockerfile linting
+
+brew "hadolint"
+
+# Image vulnerability scanning
+
+brew "trivy"
+
+# Inspect image layers / size issues
+
+brew "dive"

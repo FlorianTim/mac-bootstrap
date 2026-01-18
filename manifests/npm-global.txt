@@ -1,0 +1,7 @@
+
+# npm global tools (one per line)
+
+# Keep this list small; prefer project-local tooling where possible.
+
+cordova          # Apache Cordova CLI (cross-platform apps)
+firebase-tools   # Firebase CLI (optional; remove if not needed)

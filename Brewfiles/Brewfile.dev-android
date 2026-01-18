@@ -1,0 +1,22 @@
+
+# Brewfile.dev-android â€” Android tooling
+
+# Android Studio
+
+cask "android-studio"
+
+# Android CLI tools (sdkmanager/avdmanager)
+
+cask "android-commandlinetools"
+
+# adb / fastboot
+
+cask "android-platform-tools"
+
+# Android NDK (for native builds, JNI)
+
+cask "android-ndk"
+
+# Handy Android screen mirroring/control
+
+brew "scrcpy"

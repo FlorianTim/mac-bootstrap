@@ -1,0 +1,36 @@
+
+# Brewfile.dev-iot â€” Arduino / ESP32 tooling
+
+# Arduino CLI
+
+brew "arduino-cli"
+
+# Arduino IDE (optional GUI)
+
+cask "arduino-ide"
+
+# PlatformIO (CLI; pairs with VS Code PlatformIO extension)
+
+brew "platformio"
+
+# ESP flashing tools
+
+brew "esptool"
+brew "espflash"
+
+# Serial monitors
+
+brew "picocom"
+brew "minicom"
+
+# On-chip debugging (JTAG/SWD)
+
+brew "open-ocd"
+
+# AVR tooling (older Arduino boards)
+
+brew "avrdude"
+
+# DFU utility (for some boards)
+
+brew "dfu-util"

@@ -1,0 +1,53 @@
+
+# Brewfile.office â€” office/PDF/email/sync utilities
+
+# Office suites (choose what you need)
+
+cask "libreoffice-still"
+cask "onlyoffice"
+
+# Email client
+
+cask "thunderbird"
+
+# Notes (optional)
+
+cask "joplin"
+
+# PDF management (split/merge)
+
+cask "pdfsam-basic"
+
+# PDF viewer/annotation
+
+cask "skim"
+
+# Scanning frontend
+
+cask "naps2"
+
+# OCR for scanned PDFs (CLI)
+
+brew "ocrmypdf"
+
+# PDF utilities (text extraction, inspection)
+
+brew "poppler"
+
+# Diagramming
+
+cask "drawio"
+
+# File/folder diff & merge
+
+cask "meld"
+
+# Cloud file transfer/mount
+
+cask "cyberduck"
+cask "mountain-duck"
+
+# Sync clients (optional; remove if not used)
+
+cask "nextcloud"
+cask "syncthing-app"

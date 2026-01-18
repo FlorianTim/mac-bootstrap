@@ -1,0 +1,17 @@
+
+# Brewfile.cloudflare â€” Cloudflare tooling
+
+# Cloudflare Tunnel client
+
+brew "cloudflared"
+
+# Cloudflare Workers/Pages CLI
+
+brew "cloudflare-wrangler"
+
+# IaC helpers
+
+brew "opentofu"
+brew "sops"
+brew "terraform-docs"
+brew "cf-terraforming"

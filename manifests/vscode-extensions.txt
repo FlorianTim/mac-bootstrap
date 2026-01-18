@@ -1,0 +1,43 @@
+
+# VS Code extensions (one ID per line). Comments allowed on separate lines.
+
+# Core quality / team workflows
+
+EditorConfig.EditorConfig
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+redhat.vscode-yaml
+DavidAnson.vscode-markdownlint
+eamodio.gitlens
+GitHub.vscode-pull-request-github
+
+# Containers
+
+ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
+
+# Java
+
+vscjava.vscode-java-pack
+vscjava.vscode-gradle
+vscjava.vscode-maven
+
+# Flutter / Dart
+
+Dart-Code.flutter
+Dart-Code.dart-code
+
+# Cordova
+
+msjsdiag.cordova-tools
+
+# IoT / Embedded (optional; remove if not needed)
+
+platformio.platformio-ide
+vscode-arduino.vscode-arduino-community
+
+# Cloud/IaC (optional)
+
+HashiCorp.terraform
+OpenTofu.vscode-opentofu
+cloudflare.cloudflare-workers-bindings-extension

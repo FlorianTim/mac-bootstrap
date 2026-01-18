@@ -1,0 +1,41 @@
+
+# Brewfile.azure â€” Azure + AKS tooling
+
+# Azure CLI
+
+brew "azure-cli"
+
+# Azure Storage transfer tool
+
+brew "azcopy"
+
+# Storage GUI (optional)
+
+cask "microsoft-azure-storage-explorer"
+
+# Kubernetes / AKS essentials
+
+brew "kubernetes-cli"
+brew "helm"
+brew "kustomize"
+brew "kubectx"
+brew "k9s"
+brew "stern"
+
+# Manifest validation
+
+brew "kubeconform"
+
+# Secret management helpers
+
+brew "sops"
+brew "ksops"
+brew "kubeseal"
+
+# kubectl plugin manager
+
+brew "krew"
+
+# kubelogin (Entra auth plugin)
+
+brew "Azure/kubelogin/kubelogin"

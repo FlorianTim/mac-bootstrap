@@ -1,0 +1,19 @@
+
+# Brewfile.dev-flutter-cordova â€” Flutter + Cordova prerequisites
+
+# Flutter SDK
+
+cask "flutter"
+
+# Node.js runtime for Cordova tooling
+
+brew "node"
+
+# Useful file watcher (optional)
+
+brew "watchman"
+
+# pnpm/yarn are optional; install if you need them
+
+brew "pnpm"
+brew "yarn"

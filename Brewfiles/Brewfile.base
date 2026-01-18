@@ -1,0 +1,33 @@
+
+# Brewfile.base â€” CLI essentials and small productivity tools
+
+# Better terminal
+
+cask "iterm2"
+
+# Clipboard history
+
+cask "maccy"
+
+# Menu bar system stats
+
+cask "stats"
+
+# Prevent sleep during presentations/downloads
+
+cask "keepingyouawake"
+
+# Password manager (local file-based)
+
+cask "keepassxc"
+
+# CLI essentials
+
+brew "git"
+brew "gh"
+brew "ripgrep"
+brew "fd"
+brew "fzf"
+brew "bat"
+brew "jq"
+brew "zoxide"

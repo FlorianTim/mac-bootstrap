@@ -1,0 +1,28 @@
+
+# Brewfile.dev-java â€” Java development (Temurin 21) + build tools
+
+# Java 21 (LTS)
+
+cask "temurin@21"
+
+# Java version management
+
+brew "jenv"
+
+# Build tools
+
+brew "maven"
+brew "gradle"
+
+# Kotlin compiler (optional; many projects use the Gradle plugin only)
+
+brew "kotlin"
+
+# Formatting / linting helpers
+
+brew "google-java-format"
+brew "ktlint"
+
+# Developer editor
+
+cask "visual-studio-code"

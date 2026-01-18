@@ -1,0 +1,37 @@
+
+# Brewfile.browser-media â€” browsers and multimedia/photo tools
+
+# Browsers
+
+cask "firefox"
+cask "brave-browser"
+cask "tor-browser"
+
+# Media players
+
+cask "iina"
+cask "vlc"
+
+# Video transcoding
+
+cask "handbrake-app"
+
+# Audio/video toolkit (CLI)
+
+brew "ffmpeg"
+
+# Image processing (CLI)
+
+brew "imagemagick"
+
+# Screen recording / streaming
+
+cask "obs"
+
+# RAW photo development (optional)
+
+cask "rawtherapee"
+
+# Image editor (optional)
+
+cask "gimp"
