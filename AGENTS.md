@@ -1,5 +1,5 @@
 
-# mac-bootstrap â€” Agent Rules (AGENTS.md)
+# mac-bootstrap - Agent Rules (AGENTS.md)
 
 ## Purpose
 

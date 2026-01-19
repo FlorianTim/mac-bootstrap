@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
+# shellcheck source=_lib.sh
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_lib.sh"
 
 if ! have_cmd brew; then
-die "Homebrew is not installed. Install from [https://brew.sh/](https://brew.sh/)"
+  die "Homebrew is not installed. Install from [https://brew.sh/](https://brew.sh/)"
 fi
 
 log "Running brew doctor..."

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+# shellcheck source=_lib.sh
 
 # Prepare the repository on macOS:
 
